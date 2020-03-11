@@ -1,11 +1,7 @@
 language: python
+
 python:
   - "3.6"
-
-before_install:
-  - echo "BEFORE INSTALL START"
-  - gem install bundler
-  - echo "BEFORE INSTALL END"
 
 services:
   - docker
